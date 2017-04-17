@@ -1,2 +1,0 @@
-# snaproutesean.github.io
-Demos
