@@ -1,10 +1,39 @@
+<!doctype html>
 <html>
-<title>DEMO HOME</title>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="css/default.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+	function getContent{
+		
+		document.getElementById("content").src = "LoremIpsum.html"
+	}
+	
+	
+</script>
+</head>
+
 <body>
+<div class="sidebar"><h1>Technical Documentation</h1>
+<ul>
+	<li>Configuration Guides</li>
+	<li>API Guides</li>
+	<li><a href="" onclick='getContent()'> LoremIpsum</a></li>
+	</ul>
+	
 
-<h1>Test page</h1>
-<p>Test test test</p>
+</div>
 
-
+<div id="content">
+	
+	
+</div>
+	
+	
+<iframe class="content"  id="content" src="">
+	
+</iframe>
 </body>
-<html>
+</html>
